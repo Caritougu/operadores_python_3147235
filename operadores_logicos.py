@@ -19,14 +19,16 @@ JERARQUIA DEFINITIVA DE OPERADORES
 9.          =
 
 
-
+NOTA:si hay operaciones en el mismo nivel de jerarquia se resuelven de izquierda a derecha
 """
 
 op1= False
 op2= True 
-op3= op1 or op2
+op3 = False
+op4 = True
 
-print(op3)
+resultado=not op1 and (op2 or op3 and not op1) and not op4
+print(resultado)
 
 #operador not 
 
