@@ -6,10 +6,11 @@ por tanto en las condicionales deben haber operadores relacionales o logicos
 
 """
 #Ejemplo de condicional 
-a=3
-b=2
-c=1
+a=6
+b=3
+c=7
 d=4
+e=5
 
-resultado=(a**2-b>c**2) and ((a*3+c)/2<d) or True
+resultado= not (a+b>c/d)or e*2 !=d +c and not (a<b)
 print(resultado)
