@@ -11,5 +11,5 @@ b=2
 c=1
 d=4
 
-resultado=((a+b)*c)**2(4 and (b + d)/2>3)
+resultado=(a**2-b>c**2) and ((a*3+c)/2<d) or True
 print(resultado)
