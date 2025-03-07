@@ -23,10 +23,28 @@ Si hay opreciones en el mismo nivel de jerarquia, se resuelven de izquierda a de
 
 '''
 
-a = 3
-b = 2
-c = 1
+a = 2
+b = 3
+c = 7
 x = 5
-
-y = ((2*a+c)/7) * (a+(4*a)/c)
+h= 1
+y=((2*a+c)/7)*(h+(4*a)/c)
 print(y)
+
+'''
+Operadores relacionales : las operaciones aritmeticas resultan en un valor numerico:
+resulta un valor booleano 
+True False (v,f,si,no)
+
+OPERACIONES RELACIONALES:
+>,<, >=, <=, !=, ==
+
+JERARQUIA DE OPERADOS INCLUYENDO LOS RELACIONALES:
+1.         ()
+2.         **
+3.      *, / , % 
+4.        +, -
+5.  ,<, >=, <=, !=, ==
+6.          =
+
+'''
